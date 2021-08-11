@@ -30,6 +30,10 @@ it("calls axios and returns images", async () => {
 
   expect(mockAxios.get).toHaveBeenCalledTimes(1);
 
+  // console.log(mockAxios.get.getMockName()); // jest.fn()
+  // console.log(mockAxios.get.mock.calls); // [ [ 'https://api.unsplash.com/search/photos', { params: [Object] } ] ]
+  console.log(mockAxios.get.mockReturnValue(1)); //
+
   /* Look at the arguments/parameters that were passed to axios.  */
   expect(mockAxios.get).toHaveBeenCalledWith(
     "https://api.unsplash.com/search/photos",
