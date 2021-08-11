@@ -10,3 +10,5 @@ Branches of this repo:
 ### 3. [Mocking Axios in Jest + Testing Async Functions](https://www.youtube.com/watch?v=9Yrd4aZkse8&list=PL8fumNHsC-3NaPNxh2bous6bBDWwJ4r1-&index=4)
 
 - `git switch mocking-axios`
+- About jest mock functions [mock functions](https://jestjs.io/docs/mock-functions)
+  - and the [mock functions api](https://jestjs.io/docs/mock-function-api)
